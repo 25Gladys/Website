@@ -1,0 +1,101 @@
+  *{
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+       
+  .header {
+  padding: 2px;
+  text-align: center;
+  font-size: larger;
+  }
+ 
+ .navbar {
+  overflow: hidden;
+  background-color:  #ff4757;
+  font-size: larger;
+  font-weight: bolder;
+  }
+
+  .navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-style: bold;
+  font-size: large;
+
+  }
+
+  .main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  padding: 100px;
+  color: black;
+  font-size: larger;
+  text-align: center;
+  }
+
+  .footer {
+  padding: 0px;
+  text-align: center;
+  font-size: small;
+  color: black;
+  background-color: #ff4757;
+  background-size: 0%;
+  }
+
+  body {
+    font-family: "Roboto", serif;
+    background-image: url("images/backshop.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h2{
+    font-family: "Roboto", serif;
+    font-style: bold;
+    color: black;
+  }
+  p{
+    font-family: "Roboto", serif;
+    font-style: 100px;
+    color: #ff4757;
+    font-weight: bolder;
+    line-spacing: 1.8px;
+    font-size: larger;
+  }
+  
+
+h1{
+    
+    font-style: bold;
+    color: #ff4757;
+    font-family: "Roboto", serif;
+}
+
+
+button  {
+float: right;
+margin: 0px;
+padding: 0px;
+background: transparent;
+color: black;
+font-size: large;
+text-align: center;
+border:none;
+font-family: "Roboto", serif;
+font-weight: bolder;
+}
+
+img  {
+    border-radius: 20px;
+}
+
+
+
+
